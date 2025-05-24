@@ -1,0 +1,34 @@
+@media (max-width: 321px) {
+    
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    flex: 1 1 100%;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 3fr 2fr;
+}
+
+.course {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.place {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.certificate {
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+}

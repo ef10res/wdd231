@@ -1,0 +1,47 @@
+header {
+    background-color: navy;
+    color: white;
+}
+
+header,
+footer {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header span {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+header img {
+    margin: 15px 15px 0px 0px;
+}
+
+nav {
+    background-color: black;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+main {
+    font-family: 'Oxygen', sans-serif;
+}
+
+h2 {
+    color: navy;
+}
+
+h3 {
+    background-color: navy;
+    color: white;
+}
