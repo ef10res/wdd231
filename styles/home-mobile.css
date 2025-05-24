@@ -1,11 +1,19 @@
-header {
+@media screen and (max-width: 640px) {
+
+header, footer {
     background-color: navy;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
-header,
+.navigation li {
+    display: flex;
+    flex-direction: row;
+}
+
 footer {
-    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 20px;
 }
 
 header span {
@@ -22,19 +30,48 @@ nav {
     background-color: black;
 }
 
-nav ul {
+.navigation {
     list-style: none;
 }
 
-nav a {
+.navigation.show a{
     display: block;
     text-align: center;
     text-decoration: none;
     padding: 1rem;
 }
 
+nav ul li a:hover {
+    color: yellow;
+}
+#menu {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: .5rem .75rem;
+    color: white;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.show::before {
+    content: "X";
+}
+
 main {
     font-family: 'Oxygen', sans-serif;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+}
+
+section {
+    text-align: center;
+    margin: 5px;
+    border: solid gray;
 }
 
 h2 {
@@ -44,4 +81,9 @@ h2 {
 h3 {
     background-color: navy;
     color: white;
+}
+
+.show li {
+    display: block;
+}
 }
