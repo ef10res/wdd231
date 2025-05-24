@@ -95,6 +95,10 @@ const courses = [
         ],
         completed: false
     }
-
-    
 ]
+
+function createCourseCard() {
+    courses.forEach(course => {
+        let card = document.createElement("section")
+    })
+}
