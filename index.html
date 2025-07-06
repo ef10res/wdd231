@@ -3,9 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Chamber Course Home Page</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <meta name="description" content="WDD231 Course Home Page">
+    <meta name="author" content="WDD231 Erick Flores">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxygen:wght@300;400;700&family=Roboto&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxygen:wght@300;400;700&family=Roboto&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 <body>
-    <h1>Erick Flores</h1>
+    <header>
+        <img src="images/airplane.svg" alt="site logo" width="1" height="1">
+        <span>Chamber of Commerce</span>
+        <button id="nav-button" class="hamburger" aria-label="navigation"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a>Home</a></li>
+            <li><a>Chamber Project</a></li>
+            <li><a>Final Project</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <section>
+            <h2>About me</h2>
+        </section>
+        <section>
+            <h2>Student Photo</h2>
+        </section>
+        <section>
+            <h2>Web Certificate Courses</h2>
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://www.instagram.com/floreserick10/" target="_blank"><img src="images/instagram.svg" alt="instagram" width="16" height="16"></a>
+            <a href="https://www.linkedin.com/in/erick-flores-311a04257/" target="_blank"><img src="images/linkedin.svg" alt="linked in" width="16" height="16"></a>
+            <a href="https://github.com/ef10res" target="_blank"><img src="images/github.svg" alt="github" width="16" height="16"></a>
+            <a href="https://www.microsoft.com/en-us/microsoft-teams/group-chat-software" target="_blank"><img src="images/microsoft-teams.svg" alt="microsoft-teams" width="16" height="16"></a>
+        </div>
+        <span id="currentyear"></span><p>Erick Flores Utah,USA</p>
+        <p id="lastmodified"></p>
+    </footer>
 </body>
 </html>
