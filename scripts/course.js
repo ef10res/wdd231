@@ -92,6 +92,8 @@ function createCourseCards(courses) {
     })
 
 }
+const creditE = document.querySelector('.credits');
+let creditNum = 0;
 
 const container = document.querySelector(".container");
 const allButton = document.createElement("button");
@@ -101,12 +103,17 @@ wddButton.innerHTML = "WDD Courses"
 const cseButton = document.createElement("button");
 cseButton.innerHTML = "CSE Courses"
 
+
 container.appendChild(allButton);
 container.appendChild(wddButton);
 container.appendChild(cseButton);
 
 allButton.addEventListener("click", () => {
     createCourseCards(courses);
+    creditNum = courses.reduce((accumulator, currentValue) => courses.credits + currentValue, 0);
+    const creditP = document.createElement("p");
+    creditP.innerHTML = `The total number of credits listed below is ${creditNum}`;
+    creditE.appendChild(creditP);
 });
 
 wddButton.addEventListener("click", () => {
@@ -118,3 +125,5 @@ cseButton.addEventListener("click", () => {
     createCourseCards(courses.filter(course => (course.subject === 'CSE')));
 
 });
+
+
