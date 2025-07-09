@@ -55,7 +55,7 @@ header span {
 .navigation a {
     display: block;
     padding: .8rem 10px;
-    color: lightblue;
+    color: #4663ac;
     text-decoration: none;
     border-bottom: solid 1px #ddd;
 }
@@ -70,7 +70,7 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
-.navigation a::hover {
+.navigation li a::hover {
     background-color: darkblue;
 }
 
@@ -130,4 +130,8 @@ div {
 h3 {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+}
+
+#aboutme, #photo, #courses {
+    margin: 10px;
 }
