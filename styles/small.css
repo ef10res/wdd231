@@ -5,6 +5,7 @@ header {
     align-items: end;
     border-bottom: solid 1px #ddd;
     column-gap: 8px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header img {
@@ -106,4 +107,18 @@ h2 {
     color: lightblue;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+}
+
+button {
+    display: flex;
+    flex-wrap: wrap;
+    display: block;
+    align-items: center;
+    width: 100%;
+}
+
+div {
+    border: solid lightblue;
+    border-radius: 10px;
+    background-color: #ddd;
 }
