@@ -70,7 +70,7 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
-.navigation li a::hover {
+.navigation li a:hover {
     background-color: darkblue;
 }
 
