@@ -83,18 +83,19 @@ function createCourseCards(courses) {
     courses.forEach(course => {
         let card = document.createElement("div");
         let name = document.createElement("h3");
-
+        
         name.innerHTML = `${course.subject} ${course.number}`;
 
         card.appendChild(name);
 
         document.querySelector(".courses").append(card);
+        
     })
-
+    const completedCredits = courses.reduce((sum, course) => course.completed ? sum + course.credits : sum, 0);
+    const creditTotals = document.createElement("p");
+    creditTotals.innerHTML = `Completed: ${completedCredits} credits`;
 }
 const creditE = document.querySelector('.credits');
-let creditNum = 0;
-
 const container = document.querySelector(".container");
 const allButton = document.createElement("button");
 allButton.innerHTML = "All Courses"
@@ -110,10 +111,7 @@ container.appendChild(cseButton);
 
 allButton.addEventListener("click", () => {
     createCourseCards(courses);
-    creditNum = courses.reduce((accumulator, currentValue) => courses.credits + currentValue, 0);
-    const creditP = document.createElement("p");
-    creditP.innerHTML = `The total number of credits listed below is ${creditNum}`;
-    creditE.appendChild(creditP);
+
 });
 
 wddButton.addEventListener("click", () => {

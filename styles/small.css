@@ -100,3 +100,10 @@ footer {
 .social a:hover {
     background-color: #ddd;
 }
+
+h2 {
+    background-color: black;
+    color: lightblue;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
