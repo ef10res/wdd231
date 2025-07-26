@@ -1,0 +1,60 @@
+{
+    "companies": [
+    {
+        "name": "Kroger",
+        "address": "1014 Vine Street",
+        "phonenumber": "800-576-4377",
+        "URL": "https://www.thekrogerco.com/",
+        "image": "/images/kroger.png",
+        "mLevel": 1
+    },
+    {
+        "name": "Lifetime",
+        "address": "Freeport Center, D-12, Clearfield, UT 84016",
+        "phonenumber": "800-225-3865",
+        "URL": "https://www.lifetime.com/",
+        "image": /images/lifetime.jpg,
+        "mLevel": 1
+    },
+    {
+        "name": "Progrexion Teleservices",
+        "address": "257 E 200 S, Salt Lake City, UT 84111",
+        "phonenumber": "801-384-4100",
+        "URL": "https://www.consumerfinance.gov/enforcement/actions/pgx-holdings-inc/",
+        "image": "/images/progrexion.jpg",
+        "mLevel": 2
+    },
+    {
+        "name": "Lagoon",
+        "address": "375 N Lagoon Dr, Farmington, UT 84025",
+        "phonenumber": "801-451-8000",
+        "URL": "https://www.lagoonpark.com/",
+        "image": "/images/lagoon.png",
+        "mLevel": 2
+    },
+    {
+        "name": "Northrop",
+        "address": "Falls Church, VA",
+        "phonenumber": "800-247-4952",
+        "URL": "https://www.northropgrumman.com/",
+        "image": "/images/northrop.png",
+        "mLevel": 2
+    },
+    {
+        "name": "Lockheed",
+        "address": "6801 Rockledge Drive, Bethesda, Maryland 20817",
+        "phonenumber": "800-367-5690",
+        "URL": "https://www.lockheedmartin.com/en-us/index.html",
+        "image": "/images/lockheed.png",
+        "mLevel": 1
+    },
+    {
+        "name": "Boeing",
+        "address": "929 Long Bridge Drive in Arlington, United States",
+        "phonenumber": "801-537-6400",
+        "URL": "https://www.boeing.com/",
+        "image": "/images/boeing.png",
+        "mLevel": 3
+    }
+]
+}

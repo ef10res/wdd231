@@ -9,10 +9,56 @@
     <meta property="og:title" content="Chamber Directory">
     <meta property="og:description" content="Chamber of Commerce Directory page for businesses">
     <meta property="og:image" content="">
-    <meta property="og:locale" content="">
+    <meta property="og:locale" content="https://ef10res.github.io/wdd231/chamber/directory.html">
     <link rel="icon" href="images/favicon.ico">
+    <script src="scripts/chamber.js" defer></script>
 </head>
 <body>
-    
+    <header>
+        <img src="images/airplane.svg" alt="site logo" width="1" height="1">
+        <span>Davis County Chamber of Commerce</span>
+        <button id="nav-button" class="hamburger" aria-label="navigation"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Discover</a></li>
+        </ul>
+    </nav> 
+    <main>
+        <img src="images/hero-cc.jpg" alt="hero chamber image">
+        <h1>Home</h1>
+        <section>
+            <div id="events">
+
+            </div>
+            <div id="weather">
+
+            </div>
+            <div id="forecast">
+
+            </div>
+        </section>
+        <section id="cards">
+
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://www.instagram.com/floreserick10/" target="_blank"><img src="images/instagram.svg" alt="instagram"
+                    width="16" height="16"></a>
+            <a href="https://www.linkedin.com/in/erick-flores-311a04257/" target="_blank"><img src="images/linkedin.svg"
+                    alt="linked in" width="16" height="16"></a>
+            <a href="https://github.com/ef10res" target="_blank"><img src="images/github.svg" alt="github" width="16"
+                    height="16"></a>
+            <a href="https://www.microsoft.com/en-us/microsoft-teams/group-chat-software" target="_blank"><img
+                    src="images/microsoft-teams.svg" alt="microsoft-teams" width="16" height="16"></a>
+        </div>
+        <span id="currentyear"></span>
+        <p>Erick Flores Utah,USA</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>
