@@ -1,8 +1,7 @@
-const url = "/data/members.json"
 const cards = document.querySelector('#cards');
 
 async function getCompData() {
-    const response = await fetch(url);
+    const response = await fetch('/data/members.json');
     const data = await response.json();
     displayCompanies(data.companies);
 }
