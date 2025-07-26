@@ -1,5 +1,5 @@
 const cards = document.querySelector('.cards');
-const file = '/data/members.json'
+const file = './data/members.json'
 
 async function getCompData() {
     const response = await fetch(file);
@@ -23,8 +23,8 @@ const displayCompanies = (companies) => {
         portrait.setAttribute('src', company.image);
         portrait.setAttribute('alt', `${company.name} image`);
         portrait.setAttribute('loading', 'lazy');
-        portrait.setAttribute('width', '200');
-        portrait.setAttribute('height', '250');
+        portrait.setAttribute('width', '150');
+        portrait.setAttribute('height', '150');
 
         card.appendChild(compName);
         card.appendChild(portrait);
