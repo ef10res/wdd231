@@ -3,8 +3,8 @@ const year = lastModifiedDate.getFullYear();
 const month = String(lastModifiedDate.getMonth() + 1).padStart(2, '0'); // Months are 0-indexed
 const day = String(lastModifiedDate.getDate()).padStart(2, '0');
 
-const formattedDate = `last modified ${month}/${day}/${year}`;
+const formattedDate = `Last Modified: ${month}/${day}/${year}`;
 
-document.getElementById('currentyear').textContent = year;
+document.getElementById('currentyear').textContent = `©️${year} Davis Chamber of Commerce`;
 
 document.getElementById('lastModified').textContent = formattedDate;
