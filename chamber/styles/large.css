@@ -24,27 +24,16 @@
         display: flex;
     }
 
-    .top-grid {
-        display: grid;
-        grid-template-columns: 2fr 1fr 1fr;
-    }
-
     #events {
-        grid-column: 1/2;
     }
 
-    #weather {
-        grid-column: 2/3;
+    #weather {}
     }
 
     #forecast {
-        grid-column: 3/4;
     }
 
-    .cards {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        grid-gap: 5px;
+    .spotlights {
         align-items: center;
 
         div {
@@ -59,7 +48,6 @@
             border: 1px solid #fff;
             box-shadow: 0 0 1rem #555;
         }
-    }
 
     h3 {
         font-size: 1.2rem;   }
