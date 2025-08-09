@@ -164,6 +164,8 @@ select {
 .form {
     font-family: 'Montserrat', sans-serif;
     color: #564256;
+    width: 320px;
+    height: auto;
 }
 
 #cards > div {
