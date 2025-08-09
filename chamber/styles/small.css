@@ -164,7 +164,6 @@ select {
 .form {
     font-family: 'Montserrat', sans-serif;
     color: #564256;
-    width: 320px;
     height: auto;
 }
 
@@ -173,7 +172,7 @@ select {
     border-radius: 10px;
     height: 170px;
     align-content: center;
-    background-color: #E8E8E8;    
+    background-color: #E8E8E8;  
 }
 
 #cards > div > button {
@@ -182,6 +181,7 @@ select {
     margin-left: 160px;
     background-color: #FC814A;
     font-family: 'Roboto', sans-serif;
+    animation: fadeOutIn 2s ease-in-out infinite;
 }
 
 .submit {
@@ -201,4 +201,18 @@ select {
     background-color: #BFBFBF;
     color:#564256;
     font-family: 'Roboto', sans-serif;
+}
+
+@keyframes fadeOutIn {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.2;
+    }
+
+    100% {
+        opacity: 1;
+    } 
 }
