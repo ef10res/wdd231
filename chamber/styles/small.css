@@ -63,11 +63,12 @@ header span {
 }
 
 .navigation a {
+    font-family: 'Montserrat', sans-serif;
     display: block;
     padding: .8rem 10px;
-    color: #BFBFBF;
+    color:#96939B;
     text-decoration: none;
-    border-bottom: solid 1px #96939B;
+    border-bottom: solid 1px #BFBFBF;
 }
 
 .navigation li.current {
@@ -117,8 +118,8 @@ footer {
 }
 
 h2 {
-    background-color: black;
-    color: lightblue;
+    background-color: #564256;
+    color: #E8E8E8;
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
@@ -131,14 +132,65 @@ button {
     width: 100%;
 }
 
-div {
-    border: solid lightblue;
-    border-radius: 10px;
-    background-color: #ddd;
-    width: 100%;
-}
-
 h3 {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+}
+
+textarea {
+    display: block;
+    width: 400px;
+    height: 80px;
+    margin: 10px 10px;
+}
+
+input[type="submit"],
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="email"],
+select {
+    display: block;
+    margin: 15px 15px;
+    width: 400px;
+    height: 35px;
+}
+
+.radio {
+    display: block;
+    margin: 10px 10px;
+}
+
+.form {
+    font-family: 'Montserrat', sans-serif;
+    color: #564256;
+}
+
+#cards > div {
+    border: solid #BFBFBF;
+    border-radius: 10px;
+    height: 170px;
+    align-content: center;
+    background-color: #E8E8E8;
+    animation-name: fade-and-move;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    /* or a number like 3 */
+    animation-direction: alternate;
+    /* or normal, reverse, alternate-reverse */
+    animation-timing-function: ease-in-out;
+    /* or linear, ease, ease-in, ease-out */     
+}
+
+#cards > div > button {
+    width: 100px;
+    height: 40px;
+    margin-left: 160px;
+    background-color: #FC814A;
+    font-family: 'Roboto', sans-serif;
+}
+
+.submit {
+    width: 90px;
+    margin-left: 150px;
 }

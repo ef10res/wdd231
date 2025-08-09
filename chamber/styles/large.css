@@ -24,32 +24,18 @@
         display: flex;
     }
 
-    #events {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
-    #weather {}
+    .form {
+        grid-column: 1/2;
     }
 
-    #forecast {
+    #cards {
+        grid-column: 2/3;
     }
 
-    .spotlights {
-        align-items: center;
-
-        div {
-            text-align: center;
-
-            &>* {
-                margin: 0.1rem;
-            }
-        }
-
-        img {
-            border: 1px solid #fff;
-            box-shadow: 0 0 1rem #555;
-        }
-
-    h3 {
-        font-size: 1.2rem;   }
-
+    
 }

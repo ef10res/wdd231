@@ -35,62 +35,64 @@
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
-            <li class="current"><a href="#">Home</a></li>
-            <li><a href="#">Directory</a></li>
-            <li><a href="#">Join</a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./directory.html">Directory</a></li>
+            <li class="current"><a href="#">Join</a></li>
             <li><a href="#">Discover</a></li>
         </ul>
     </nav>
     <main class="join">
         <h1>Join Us</h1>
-        <form method="get" action="thanks.html">
-            <fieldset>
-                <label class="name">Your Name
-                    <input type="text" id="name" name="name" title="Enter your given name" autocomplete="given-name" required>
-                </label>
-                <label class="lName">Your Last Name
-                    <input type="text" id="lName" name="lName" title="Enter your last name" autocomplete="family-name" required>
-                </label>
-                <label class="oTitle">Your Organizational Title <br> only alpha characters, hyphens, and spaces. <br> minimum 7 characters.
-                    <input type="text" id="oTitle" name="oTitle" title="Enter your organization title" autocomplete="organization-title" required>
-                </label>
-            </fieldset>
-            <fieldset>
-                <label class="eMail">Email Address
-                    <input type="email" name="eMail" title="Enter your email" autocomplete="email" placeholder="floreserick10@gmail.com" required>
-                </label>
-                <label class="phone">Phone number
-                    <input type="tel" name="phone" title="Enter your phone number" autocomplete="tel" required>
-                </label>
-            </fieldset>
-            <fieldset>
-                <label class="bisName">Business/Organization's name
-                    <input type="text" name="bisName" title="Enter your business name" autocomplete="organization" required>
-                </label>
-                <div class="mLevel">
-                    <p>Membership Level</p>
-                    <label>
-                        <input type="radio" name="mLevel" value="nProfit">NP Membership           
+        <section class="form">
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <label class="name">Your Name
+                        <input type="text" id="name" name="name" title="Enter your given name" autocomplete="given-name" required>
                     </label>
-                    <label>
-                        <input type="radio" name="mLevel" value="bronze">Bronze Membership           
+                    <label class="lName">Your Last Name
+                        <input type="text" id="lName" name="lName" title="Enter your last name" autocomplete="family-name" required>
                     </label>
-                    <label>
-                        <input type="radio" name="mLevel" value="silver">Silver Membership           
+                    <label class="oTitle">Your Organizational Title <br> only alpha characters, hyphens, and spaces. <br> minimum 7 characters.
+                        <input type="text" id="oTitle" name="oTitle" title="Enter your organization title" autocomplete="organization-title" required>
                     </label>
-                    <label>
-                        <input type="radio" name="mLevel" value="gold">Gold Membership            
+                </fieldset>
+                <fieldset>
+                    <label class="eMail">Email Address
+                        <input type="email" name="eMail" title="Enter your email" autocomplete="email" placeholder="floreserick10@gmail.com" required>
                     </label>
-                </div>
-                <label>Business Description
-                    <textarea title="Enter business description" name="description"></textarea>
-                </label>
-            </fieldset>
-            <fieldset>
-                <input type="hidden" id="timestampField" name="submissionTimestamp">
-                <button type="submit">Join Us</button>
-            </fieldset>
-        </form>
+                    <label class="phone">Phone number
+                        <input type="tel" name="phone" title="Enter your phone number" autocomplete="tel" required>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label class="bisName">Business/Organization's name
+                        <input type="text" name="bisName" title="Enter your business name" autocomplete="organization" required>
+                    </label>
+                    <div class="mLevel">
+                        <p>Membership Level</p>
+                        <label class="radio">
+                            <input type="radio" name="mLevel" value="nProfit">NP Membership           
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="mLevel" value="bronze">Bronze Membership           
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="mLevel" value="silver">Silver Membership           
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="mLevel" value="gold">Gold Membership            
+                        </label>
+                    </div>
+                    <label>Business Description
+                        <textarea title="Enter business description" name="description"></textarea>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <input type="hidden" id="timestampField" name="submissionTimestamp">
+                    <button class="submit" type="submit">Join Us</button>
+                </fieldset>
+            </form>
+        </section>
         <section id="cards">
             <h2>Membership levels</h2>
             <div>
