@@ -66,7 +66,7 @@ header span {
     font-family: 'Montserrat', sans-serif;
     display: block;
     padding: .8rem 10px;
-    color:#96939B;
+    color:#564256;
     text-decoration: none;
     border-bottom: solid 1px #BFBFBF;
 }
@@ -83,7 +83,7 @@ h1 {
 }
 
 .navigation li a:hover {
-    background-color: #564256;
+    background-color: #E8E8E8;
 }
 
 footer {
@@ -171,15 +171,7 @@ select {
     border-radius: 10px;
     height: 170px;
     align-content: center;
-    background-color: #E8E8E8;
-    animation-name: fade-and-move;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    /* or a number like 3 */
-    animation-direction: alternate;
-    /* or normal, reverse, alternate-reverse */
-    animation-timing-function: ease-in-out;
-    /* or linear, ease, ease-in, ease-out */     
+    background-color: #E8E8E8;    
 }
 
 #cards > div > button {
@@ -193,4 +185,18 @@ select {
 .submit {
     width: 90px;
     margin-left: 150px;
+}
+
+#dialogBox {
+    width: 200px;
+    height: 125px;
+    background-color: #FC814A;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#closeButton {
+    background-color: #BFBFBF;
+    color:#564256;
+    font-family: 'Roboto', sans-serif;
 }
