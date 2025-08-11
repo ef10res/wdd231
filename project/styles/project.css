@@ -1,0 +1,32 @@
+header {
+    background-color: #0073CF;
+    font-family: 'Inter' sans-serif;
+}
+
+nav {
+    background-color: #FFD700;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1, h2{
+    color: #228B22;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    color: #808080;
+    font-family: 'Inter', sans-serif;
+}
+
+footer {
+    background-color: #808080;
+    font-family: 'Inter', sans-serif;
+}
+
+footer > div > a {
+    color: black;
+}
+
+footer > div > p, footer > div > span {
+    color: black;
+}
