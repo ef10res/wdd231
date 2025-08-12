@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="My Beautiful Honduras Places Page WDD231">
+    <meta name="author" content="Erick Flores WDD231">
+    <meta property="og:title" content="My Beautiful Honduras Places Page">
+    <meta property="og:description" content="My Beautiful Honduras Places Page for visitors">
+    <meta property="og:image" content="">
+    <meta property="og:locale" content="https://ef10res.github.io/wdd231/chamber/index.html">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/project.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/favicon.ico" alt="site logo" width="1" height="1">
+        <span>Davis County Chamber of Commerce</span>
+        <button id="nav-button" class="hamburger" aria-label="navigation"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Places</a></li>
+            <li><a href="#">Site Plan</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
+    </nav>
+    <main>
+        <img src="images/hero.jpg" alt="Honduras hero image">
+        <a class="join-link" href="join.html">Join</a>
+        <h1>Home</h1>
+        <section>
+            <div id="weather">
+                <h2>Weather</h2>
+                <h3 id="town"></h3>
+                <img id="graphic" src="" alt="">
+                <p id="description"></p>
+                <p id="temperature"></p>
+            </div>
+            <div id="forecast">
+                <h2>Forecast</h2>
+                <p><strong>Today:</strong><span id="weather-today"></span></p>
+                <p><strong>Tomorrow:</strong><span id="weather-tomorrow"></span></p>
+                <p><strong>Next Day:</strong><span id="weather-overtomorrow"></span></p>
+            </div>
+        </section>
+        <section id="spotlights">
+            <h2>Featured Members</h2>
+        </section>
+    </main>
+    <footer>
+        <div class="info">
+            <h3>My Beautiful Honduras</h3>
+        </div>
+        <div class="social">
+            <a href="https://www.instagram.com/floreserick10/" target="_blank"><img src="images/instagram.svg"
+                    alt="instagram" width="16" height="16"></a>
+            <a href="https://www.linkedin.com/in/erick-flores-311a04257/" target="_blank"><img src="images/linkedin.svg"
+                    alt="linked in" width="16" height="16"></a>
+            <a href="https://github.com/ef10res" target="_blank"><img src="images/github.svg" alt="github" width="16"
+                    height="16"></a>
+        </div>
+        <div class="student">
+            <p>WDD231 Final Project</p>
+            <p>Erick Flores</p>
+            <span id="currentyear"></span>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+
+</html>
