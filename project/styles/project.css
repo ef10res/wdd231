@@ -169,3 +169,36 @@ h3 {
     color: black;
     font-size: larger;
 }
+
+.form {
+    font-family: 'Inter', sans-serif;
+    color: #808080;
+    height: auto;
+}
+
+fieldset {
+    width: 400px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="email"],
+select {
+    display: block;
+    margin: 15px 15px;
+    width: 375px;
+    height: 35px;
+}
+
+textarea {
+    display: block;
+    width: 375px;
+    height: 90px;
+    margin: 10px 10px;
+}
+
+.submit {
+    width: 190px;
+    margin: auto;
+}
