@@ -1,15 +1,15 @@
 const places = document.querySelector('#places');
 const file = './data/places.json'
 
-async function getplacesData() {
+async function getPlacesData() {
     const response = await fetch(file);
     const data = await response.json();
     displayCompanies(data.places);
 }
-getCompData();
+getPlacesData();
 
-const displayCompanies = (places) => {
-    companies.forEach((place) => {
+const displayPlaces = (places) => {
+    places.forEach((place) => {
         let card = document.createElement('div');
         let plName = document.createElement('h2');
         let picture = document.createElement('img');
