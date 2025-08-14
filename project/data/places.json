@@ -3,7 +3,7 @@
         "name": "Copan Ruinas",
         "department": "Copan",
         "attractions": "Mayan Ruins",
-        "picture": "./images/copan.jpg"
+        "picture": "./images/copanRuins.jpg"
     },
     {
         "name": "Cayos Cochinos",
@@ -21,7 +21,7 @@
         "name": "La Tigra",
         "department": "Francisco Morazan",
         "attractions": "Canopy",
-        "picture": "./images/laTigra.jpg"
+        "picture": "./images/laTigra.webp"
     },
     {
         "name": "Lake Yojoa",
@@ -81,7 +81,7 @@
         "name": "Trujillo",
         "department": "Colon",
         "category": "Calentura National Park",
-        "price": "./images/trujillo.jpg"
+        "price": "/images/trujillo.jpg"
     },
     {
         "name": "Comayagua",

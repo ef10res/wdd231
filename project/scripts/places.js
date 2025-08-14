@@ -1,4 +1,4 @@
-const places = document.querySelector('#places');
+const myPlaces = document.querySelector('#myPlaces');
 const file = './data/places.json'
 
 async function getPlacesData() {
@@ -18,7 +18,7 @@ const displayPlaces = (places) => {
 
         plName.textContent = `${place.name}`;
         state.innerHTML = `In the department of: ${place.department}`;
-        attraction.innerHTML = `Popular attraction: ${company.attraction}`;
+        attraction.innerHTML = `Popular attraction: ${place.attraction}`;
 
         picture.setAttribute('src', place.picture);
         picture.setAttribute('alt', `${place.name} image`);
@@ -31,6 +31,6 @@ const displayPlaces = (places) => {
         card.appendChild(state);
         card.appendChild(attraction);
 
-        places.appendChild(card);
+        myPlaces.appendChild(card);
     })
 }
