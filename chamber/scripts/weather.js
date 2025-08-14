@@ -7,8 +7,8 @@ const weatherTomorrow = document.querySelector("#weather-tomorrow");
 const weatherOverTomorrow = document.querySelector("#weather-overtomorrow");
 
 const myKey = "d740c3d5cc3a30816f4846c83cec9057"
-const lat = "41.065404"
-const lon = "111.973628"
+const lat = "14.794955"
+const lon = "86.511669"
 
 const myURL = `//api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${myKey}&units=imperial`;
 const forecastURL = `//api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${myKey}&units=imperial`;
