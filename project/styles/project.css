@@ -202,3 +202,24 @@ textarea {
     width: 190px;
     margin: auto;
 }
+
+#flag {
+    width: 100px;
+    margin: auto;
+    background-color: #FFD700;
+    color: #0073CF;
+    border-radius: 20%;
+}
+
+#dialogBox {
+    width: 400px;
+    color: #0073CF;
+}
+
+#dialogBox > div {
+    background-color: white;
+}
+
+#dialogBox::backdrop {
+    background-color: #0073CF;
+}
