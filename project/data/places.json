@@ -1,0 +1,93 @@
+{"places": [
+    {
+        "name": "Copan Ruinas",
+        "department": "Copan",
+        "attractions": "Mayan Ruins",
+        "picture": 9
+    },
+    {
+        "name": "Cayos Cochinos",
+        "department": "Islas de la Bahia",
+        "attractions": "Snorkeling",
+        "picture": 99.50
+    },
+    {
+        "name": "Cataratas Pulhapanzak",
+        "department": "Cortes",
+        "attractions": "Waterfalls",
+        "picture": 199.00
+    },
+    {
+        "name": "La Tigra",
+        "department": "Francisco Morazan",
+        "attractions": "Canopy",
+        "picture": 99.50
+    },
+    {
+        "name": "Lake Yojoa",
+        "department": "Santa Barbara",
+        "attractions": "Hiking",
+        "picture": 99.50
+    },
+    {
+        "name": "Rio Cangrejal",
+        "department": "Atlantida",
+        "attractions": "Rapids",
+        "picture": 99.50
+    },
+    {
+        "name": "La Ceiba",
+        "department": "Atlantida",
+        "category": "Pico Bonito National Park",
+        "picture": 99.50
+    },
+    {
+        "name": "Utila",
+        "department": "Islas de la Bahia",
+        "attractions": "Scuba Diving",
+        "picture": 99.50
+    },
+    {
+        "name": "El Picacho",
+        "department": "Francisco Morazan",
+        "category": "Botanical Gardens",
+        "picture": 99.50
+    },
+    {
+        "name": "Roatan",
+        "department": "Islas de la Bahia",
+        "attractions": "Snorkeling",
+        "picture": 99.50
+    },
+    {
+        "name": "Amapala",
+        "department": "Valle",
+        "attractions": "Playa el Burro",
+        "picture": 99.50
+    },
+    {
+        "name": "La Mosquitia",
+        "department": "Gracias a Dios",
+        "attractions": "Rio Platano Biosphere",
+        "picture": 99
+    },
+    {
+        "name": "Omoa",
+        "department": "Cortes",
+        "category": "Fortaleza San Fernando",
+        "picture": 
+    },
+    {
+        "name": "Trujillo",
+        "department": "Colon",
+        "category": "Calentura National Park",
+        "price": 99.5
+    },
+    {
+        "name": "Comayagua",
+        "department": "Comayagua",
+        "attractions": "Bell Tower Cathedral",
+        "picture": 99.50
+    }
+]
+}
