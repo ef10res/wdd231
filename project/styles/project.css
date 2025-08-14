@@ -1,6 +1,12 @@
 header {
     background-color: #0073CF;
-    font-family: 'Inter' sans-serif;
+    font-family: 'Inter', sans-serif;
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    padding: 5px 0 5px 10px;
+    align-items: end;
+    border-bottom: solid 1px #ddd;
+    column-gap: 8px;
 }
 
 nav {
@@ -11,6 +17,7 @@ nav {
 h1, h2{
     color: #228B22;
     font-family: 'Ubuntu', sans-serif;
+    text-align: center;
 }
 
 p {
@@ -29,4 +36,122 @@ footer > div > a {
 
 footer > div > p, footer > div > span {
     color: black;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+
+}
+
+header span {
+    font-size: 1.2rem;
+    color: lightblue;
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    color: #4663ac;
+    cursor: pointer;
+}
+
+.hamburger::before {
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
+
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a {
+    display: block;
+    padding: .8rem 10px;
+    color: #4663ac;
+    text-decoration: none;
+    border-bottom: solid 1px #ddd;
+}
+
+.navigation li.current {
+    background-color: #eee;
+    ;
+}
+
+.navigation li a:hover {
+    background-color: darkblue;
+}
+
+footer {
+    background-color: #eee;
+    padding: 1rem 10px;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border: #ccc solid 1px;
+    border-radius: 22px;
+}
+
+.social img {
+    width: 22px;
+    height: 22px;
+}
+
+.social a:hover {
+    background-color: #ddd;
+}
+
+h2 {
+    background-color: black;
+    color: lightblue;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+button {
+    display: flex;
+    flex-wrap: wrap;
+    display: block;
+    align-items: center;
+    width: 100%;
+}
+
+div {
+    border: solid lightblue;
+    border-radius: 10px;
+    background-color: #ddd;
+    width: 100%;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }

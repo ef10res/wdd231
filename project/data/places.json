@@ -2,91 +2,91 @@
     {
         "name": "Copan Ruinas",
         "department": "Copan",
-        "attractions": "Mayan Ruins",
+        "attraction": "Mayan Ruins",
         "picture": "./images/copanRuins.jpg"
     },
     {
         "name": "Cayos Cochinos",
         "department": "Islas de la Bahia",
-        "attractions": "Snorkeling",
+        "attraction": "Snorkeling",
         "picture": "./images/cayosCochinos.jpg"
     },
     {
         "name": "Cataratas Pulhapanzak",
         "department": "Cortes",
-        "attractions": "Waterfalls",
+        "attraction": "Waterfalls",
         "picture": "./images/cataratas.jpg"
     },
     {
         "name": "La Tigra",
         "department": "Francisco Morazan",
-        "attractions": "Canopy",
+        "attraction": "Canopy",
         "picture": "./images/laTigra.webp"
     },
     {
         "name": "Lake Yojoa",
         "department": "Santa Barbara",
-        "attractions": "Hiking",
+        "attraction": "Hiking",
         "picture": "./images/lagoYojoa.jpg"
     },
     {
         "name": "Rio Cangrejal",
         "department": "Atlantida",
-        "attractions": "Rapids",
+        "attraction": "Rapids",
         "picture": "./images/rioCangrejal.jpg"
     },
     {
         "name": "La Ceiba",
         "department": "Atlantida",
-        "category": "Pico Bonito National Park",
+        "attraction": "Pico Bonito National Park",
         "picture": "./images/laCeiba.jpg"
     },
     {
         "name": "Utila",
         "department": "Islas de la Bahia",
-        "attractions": "Scuba Diving",
+        "attraction": "Scuba Diving",
         "picture": "./images/utila.jpg"
     },
     {
         "name": "El Picacho",
         "department": "Francisco Morazan",
-        "category": "Botanical Gardens",
+        "attraction": "Botanical Gardens",
         "picture": "./images/elPicacho.jpg"
     },
     {
         "name": "Roatan",
         "department": "Islas de la Bahia",
-        "attractions": "Snorkeling",
+        "attraction": "Snorkeling",
         "picture": "./images/roatan.jpg"
     },
     {
         "name": "Amapala",
         "department": "Valle",
-        "attractions": "Playa el Burro",
+        "attraction": "Playa el Burro",
         "picture": "./images/amapala.jpg"
     },
     {
         "name": "La Mosquitia",
         "department": "Gracias a Dios",
-        "attractions": "Rio Platano Biosphere",
+        "attraction": "Rio Platano Biosphere",
         "picture": "./images/mosquitia.jpg"
     },
     {
         "name": "Omoa",
         "department": "Cortes",
-        "category": "Fortaleza San Fernando",
+        "attraction": "Fortaleza San Fernando",
         "picture": "./images/omoa.jpg"
     },
     {
         "name": "Trujillo",
         "department": "Colon",
-        "category": "Calentura National Park",
-        "price": "/images/trujillo.jpg"
+        "attraction": "Calentura National Park",
+        "picture": "./images/trujillo.jpg"
     },
     {
         "name": "Comayagua",
         "department": "Comayagua",
-        "attractions": "Bell Tower Cathedral",
+        "attraction": "Bell Tower Cathedral",
         "picture": "./images/comayagua.jpg"
     }
 ]
