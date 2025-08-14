@@ -42,7 +42,10 @@
         </ul>
     </nav>
     <main>
-        <img src="images/hero.jpg" alt="Honduras hero image">
+        <source media="(width < 701px)" srcset="./images/ruinas700.webp" />
+        <source media="(width < 481px)" srcset="./images/ruinas400.webp" />
+        <source media="(width >= 700px)" srcset="./images/ruinas1000.webp" />
+        <img src="./images/ruinas1000.webp" alt="Ruinas de Copan, Copan, Honduras" /></picture>
         <a class="join-link" href="form.html">Join</a>
         <h1>Popular Places</h1>
         <p>
