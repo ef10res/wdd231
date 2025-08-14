@@ -206,8 +206,8 @@ textarea {
 #flag {
     width: 100px;
     margin: auto;
-    background-color: #FFD700;
-    color: #0073CF;
+    background-color: #0073CF;
+    color: white;
     border-radius: 20%;
 }
 
