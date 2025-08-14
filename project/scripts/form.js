@@ -1,20 +1,18 @@
 const file = './data/places.json';
 
-// Async function to fetch data
 async function getPlacesData() {
     try {
         const response = await fetch(file);
-        if (!response.ok) {
-            throw new Error(`Error status: ${response.status}`);
+        if (!response.ok) { 
+            throw new Error(`Error! status: ${response.status}`);
         }
         const data = await response.json();
-        return data.places; // Return the places array
+        return data.places;
     } catch (error) {
-        console.error("Error:", error); 
-        return [];
+        console.error("Error fetching places data:", error); 
+        return []; 
     }
 }
-
 
 const createSelect = places => {
     const selectElement = document.querySelector("#placeoi");
@@ -29,5 +27,14 @@ const createSelect = places => {
     });
 };
 
-createSelect(places);
-       
+getPlacesData()
+    .then(places => {
+        if (places && places.length > 0) { 
+            createSelect(places);
+        } else {
+            console.warn("No places data to display.");
+        }
+    })
+    .catch(error => {
+        console.error("Error processing places data:", error); 
+    });
