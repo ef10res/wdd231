@@ -164,3 +164,8 @@ h3 {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
 }
+
+#town {
+    color: black;
+    font-size: larger;
+}
