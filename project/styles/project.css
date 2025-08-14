@@ -1,3 +1,10 @@
+#hero{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
 header {
     background-color: #0073CF;
     font-family: 'Inter', sans-serif;
@@ -48,13 +55,13 @@ header img {
 
 header span {
     font-size: 1.2rem;
-    color: lightblue;
+    color: Black;
 }
 
 .hamburger {
     background: none;
     border: none;
-    color: #4663ac;
+    color: #FFD700;
     cursor: pointer;
 }
 
@@ -84,9 +91,9 @@ header span {
 .navigation a {
     display: block;
     padding: .8rem 10px;
-    color: #4663ac;
+    color: #0073CF;
     text-decoration: none;
-    border-bottom: solid 1px #ddd;
+    border-bottom: solid 1px #228B22;
 }
 
 .navigation li.current {
@@ -95,7 +102,7 @@ header span {
 }
 
 .navigation li a:hover {
-    background-color: darkblue;
+    background-color: #228B22;
 }
 
 footer {
@@ -126,12 +133,12 @@ footer {
 }
 
 .social a:hover {
-    background-color: #ddd;
+    background-color: #808080;
 }
 
 h2 {
-    background-color: black;
-    color: lightblue;
+    background-color: #ccc;
+    color: #0073CF;
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
@@ -145,13 +152,16 @@ button {
 }
 
 div {
-    border: solid lightblue;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: solid #ccc;
     border-radius: 10px;
     background-color: #ddd;
     width: 100%;
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     text-align: center;
 }
