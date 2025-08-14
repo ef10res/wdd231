@@ -101,7 +101,7 @@ header span {
 }
 
 .navigation li a:hover {
-    background-color: #228B22;
+    background-color: white;
 }
 
 footer {
@@ -132,7 +132,7 @@ footer {
 }
 
 .social a:hover {
-    background-color: #808080;
+    background-color: gray;
 }
 
 h2 {
