@@ -4,7 +4,7 @@ const file = './data/places.json'
 async function getPlacesData() {
     const response = await fetch(file);
     const data = await response.json();
-    displayCompanies(data.places);
+    displayPlaces(data.places);
 }
 getPlacesData();
 
