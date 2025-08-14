@@ -48,7 +48,7 @@ async function apiforecastFetch() {
 
 function displayResults(data) {
     console.log('hello');
-    myTown.innerHTML = "Davis";
+    myTown.innerHTML = "Honduras";
     description.innerHTML = data.weather[0].description;
     currentTemp.innerHTML = `${data.main.temp}&deg;F`;
     const iconsrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
