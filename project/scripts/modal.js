@@ -1,4 +1,4 @@
-const button = document.querySelector("#flag");
+const button = document.querySelector("#button");
 const dialogBox = document.querySelector("#dialogBox");
 const closeButton = document.querySelector("#closeButton");
 const dialogBoxText = document.querySelector("#dialogBox div");
