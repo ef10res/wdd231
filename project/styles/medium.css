@@ -1,3 +1,30 @@
 @media only screen and (min-width: 481px) {
+    .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 2fr;
+        }
     
+        .weather {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-column: 1/3;
+            grid-row: 1/2;
+    
+        }
+    
+        .info {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-column: 1/3;
+            grid-row: 2/3;
+        }
+    
+        #weather {
+            grid-column: 1/2;
+        }
+    
+        #forecast {
+            grid-column: 2/3;
+        }
 }
