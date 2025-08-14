@@ -28,8 +28,8 @@
 
 <body>
     <header>
-        <img src="images/favicon.ico" alt="site logo" width="1" height="1">
-        <span>Davis County Chamber of Commerce</span>
+        <img src="images/favicon.ico" alt="site logo" width="16px" height="16px">
+        <span>My Beautiful Honduras</span>
         <button id="nav-button" class="hamburger" aria-label="navigation"></button>
     </header>
     <nav id="nav-bar" class="navigation">
@@ -41,7 +41,11 @@
         </ul>
     </nav>
     <main>
-        <img src="images/hero.jpg" alt="Honduras hero image">
+        <picture>
+            <source media="(width < 701px)" srcset="./images/map700.webp" />
+            <source media="(width < 481px)" srcset="./images/map350.webp" />
+            <source media="(width >= 700px)" srcset="./images/map1000.webp" />
+            <img src="./images/map1000.webp" alt="Honduras map" /></picture>
         <a class="join-link" href="join.html">Join</a>
         <h1>Home</h1>
         <section>
@@ -60,7 +64,26 @@
             </div>
         </section>
         <section id="info">
-            <h2>Featured Members</h2>
+            <div>
+                <h2>Symbols</h2>
+                <figure>
+                    <img src="./images/flag.jpeg" alt="Honduran flag">
+                    <figcaption>Honduras Flag</figcaption>
+                </figure>
+            </div>
+            <div>
+                <h2>
+                    Scenarios
+                </h2>
+                <p><strong>What language is spoken in Honduras and what are some dialects?</strong></p>
+                <p>Before Spain conquered Honduras, the main spoken language was Lenca. Now the main language is Spanish
+                    but there are dialects still spoken like Ch'orti', Garifuna, Miskito, Pech, Tol, and Tawahka.
+                </p>
+                <p><strong>What is the best time of the year to visit Honduras?</strong></p>
+                <p>The best time is during the dry season, November to April. There is minimal rainfall and outdoor
+                    activities will be best during this season.
+                </p>
+            </div>
         </section>
     </main>
     <footer>
